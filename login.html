@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotstar | login</title>
+    <link
+      rel="icon"
+      href="https://www.pngfind.com/pngs/m/672-6725363_transparent-hotstar-logo-hd-png-download.png"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <style>
+      img[src="https://www.91-cdn.com/hub/wp-content/uploads/2021/07/Disney-Hotstar.jpg"]
+      {
+        width: 21%;
+        margin-left: 601px;
+      }
+      #container {
+        width: 25%;
+        height: auto;
+        margin: auto;
+        margin-top: 10px;
+        padding: 50px;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+          rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+      }
+      h1 {
+        text-align: center;
+        font-size: 22px;
+      }
+      #form {
+        display: flex;
+        flex-direction: column;
+      }
+      input {
+        width: 80%;
+        margin-top: 1%;
+      }
+      #btn {
+        margin-top: 2%;
+      }
+      #Search {
+        width: 35%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="navbar"></div>
+    <img
+      src="https://www.91-cdn.com/hub/wp-content/uploads/2021/07/Disney-Hotstar.jpg"
+      alt=""
+      id="img"
+    />
+    <div id="container">
+      <form id="form">
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="username" />
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="password" />
+      </form>
+      <button onclick="login()" id="btn">login</button>
+    </div>
+  </body>
+</html>
+<script type="module" src="login.js"></script>

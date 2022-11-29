@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotsar | Signup</title>
+    <link
+      rel="icon"
+      href="https://www.pngfind.com/pngs/m/672-6725363_transparent-hotstar-logo-hd-png-download.png"
+    />
+    <link rel="stylesheet" href="index.css" />
+
+    <style>
+      #Search {
+        width: 35%;
+      }
+      img[src="https://www.91-cdn.com/hub/wp-content/uploads/2021/07/Disney-Hotstar.jpg"]
+      {
+        width: 20%;
+        margin-left: 600px;
+      }
+      /* form wale part ka css start */
+      #container {
+        width: 25%;
+        height: auto;
+        margin: auto;
+        margin-top: 10px;
+        padding: 50px;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+          rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+      }
+      h1 {
+        text-align: center;
+        font-size: 22px;
+      }
+      #form {
+        display: flex;
+        flex-direction: column;
+      }
+      input {
+        width: 80%;
+        margin-top: 1%;
+      }
+      #btn {
+        margin-top: 2%;
+      }
+      a[href="login.html"] {
+        text-decoration: none;
+        color: teal;
+        font-size: 20px;
+      }
+      a[href="https://www.hotstar.com/in/terms-of-use"],a[href="https://www.hotstar.com/in/privacy-policy"],a[href="login.html"]
+      {
+        color: #2563eb;
+        text-decoration: none;
+      }
+      #last {
+        color: grey;
+        text-align: center;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="navbar"></div>
+    <img
+      src="https://www.91-cdn.com/hub/wp-content/uploads/2021/07/Disney-Hotstar.jpg"
+      alt=""
+      id="img"
+    />
+
+    <div id="container">
+      <h1>Sign up</h1>
+      <form id="form">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="name" />
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="email" />
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="password" />
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="username" />
+        <label for="mobile">Mobile</label>
+        <input type="number" id="mobile" placeholder="mobile" />
+        <label for="description">Description</label>
+        <input type="text" id="description" placeholder="description" />
+      </form>
+      <p id="terms">
+        By sigining up, I accept the Hotsar
+        <a href="https://www.hotstar.com/in/terms-of-use" target="_blank"
+          >Term of Service</a
+        >
+        and acknowledge the
+        <a href="https://www.hotstar.com/in/privacy-policy" target="_blank"
+          >Privacy Policy</a
+        >
+      </p>
+      <button onclick="register()" id="btn">Register</button>
+      <p id="already">
+        Already have an account?
+        <a href="login.html" target="_blank">Sign in</a>
+      </p>
+    </div>
+    <p id="last">
+      © © 2022 STAR. All Rights Reserved. HBO, Home Box Office and all related
+      channel and programming logos are service marks of, and all related
+      programming visuals and elements are the property of, Home Box Office,
+      Inc. All rights reserved.
+    </p>
+  </body>
+</html>
+
+<script type="module" src="Signup.js"></script>

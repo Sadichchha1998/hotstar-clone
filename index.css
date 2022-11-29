@@ -1,0 +1,73 @@
+body{
+  margin:0%;
+}
+
+#navbar {
+    height: 50px;
+    border: 0px solid red;
+    display: flex;
+    justify-content: space-between;
+    background-color:#082760;
+  }
+  #first {
+    width: 30%;
+    border: 0px solid rgb(17, 144, 17);
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #Second {
+    width: 16%;
+    border: 0px solid rgb(26, 26, 101);
+    display: flex;
+    justify-content: space-evenly;
+    height: 51%;
+    margin-top: 11px;
+  }
+  img[src="https://secure-media.hotstarext.com/web-assets/prod/images/brand-logos/disney-hotstar-logo-dark.svg"]
+  {
+    width: 125%;
+  }
+  button {
+    width: 100px;
+    height: 30px;
+    border-radius: 16px;
+    background-color: rgb(43, 148, 148);
+    color: white;
+    border: none;
+    font-size: 17px;
+    font-family: sans-serif;
+  }
+  #Search {
+    height: 61%;
+    margin-top: 10px;
+  }
+
+  /* Navbar CSS END HERE */
+  #slideshow {
+    margin-top: 6px;
+    height: 610px;
+  }
+  /* Slideshow CSS End */
+
+  #movie {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 81%;
+    gap: 31px;
+    margin: auto;
+    margin-top: 21px;
+  }
+  #movie > div {
+    padding: 8px;
+    text-align: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+
+  /* movie append CSS finish Here */
+  #Sort {
+    width: 151px;
+  }
+
+  img[src="https://cdn.dribbble.com/users/148670/screenshots/5252136/dots.gif"]{
+    margin-left:200px;
+  }

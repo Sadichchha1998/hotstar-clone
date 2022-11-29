@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotstar</title>
+    <link
+      rel="icon"
+      href="https://www.pngfind.com/pngs/m/672-6725363_transparent-hotstar-logo-hd-png-download.png"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="navbar">
+      <div id="first">
+        <a href="index.html">
+          <img
+            src="https://secure-media.hotstarext.com/web-assets/prod/images/brand-logos/disney-hotstar-logo-dark.svg"
+            alt=""
+          />
+        </a>
+        <input
+          type="text"
+          placeholder="Search"
+          id="Search"
+          oninput="Debounce(Search,3000)"
+        />
+      </div>
+      <div id="Second">
+        <a href="Signup.html">
+          <button>Signup</button>
+        </a>
+        <a href="login.html">
+          <button>Login</button>
+        </a>
+      </div>
+    </div>
+    <div id="slideshow"></div>
+
+    <div id="btn">
+      <button onclick="High()" id="Sort">High to Low</button>
+      <button onclick="Low()" id="Sort">Low to High</button>
+    </div>
+    <div id="movie">
+      <img
+        src="https://cdn.dribbble.com/users/148670/screenshots/5252136/dots.gif"
+        alt=""
+      />
+    </div>
+  </body>
+</html>
+<script src="slideshow.js"></script>
+<script src="main.js"></script>
